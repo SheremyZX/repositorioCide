@@ -72,7 +72,7 @@ function getStatus(){
 class Libro extends Material{
     private $editorial;     
 
-    function __construct($editorial, $materiales, $personas,$tMaterial, $codigo, $autor, $titulo, $años, $status){
+    function __construct($editorial, $materiales, $personas, $tMaterial, $codigo, $autor, $titulo, $años, $status){
         parent::__construct($editorial, $materiales, $personas,$tMaterial, $codigo, $autor, $titulo, $años, $status);
         $this->editorial=$editorial;
     }
@@ -88,13 +88,13 @@ class Libro extends Material{
 class Revista extends Material{
     private $formato;
 
-    function __construct($formato,$materiales, $personas,$tMaterial, $codigo, $autor, $titulo, $años, $status){
+    function __construct($formato,$materiales, $personas, $tMaterial, $codigo, $autor, $titulo, $años, $status){
         parent::__construct($formato,$materiales, $personas,$tMaterial, $codigo, $autor, $titulo, $años, $status);
         $this->formato=$formato;
     }
 
     function setFormato($formato){
-        $this->formato=$formato
+        $this->formato=$formato;
     }
 
     function getFormato(){
@@ -104,7 +104,20 @@ class Revista extends Material{
 
 
 
-$ob=new Libro("Editorial Mesa Azul", "Hoja de palma", 2142329, "Jeremi Zapata", "Hablandole a la luna", 2021, "Activo");
-$ob=new Revista("Formato 50 Paginas", "Hoja de palma", 2142329, "Jeremi Zapata", "Hablandole a la luna", 2021, "Activo");
-echo $ob->datos();
+$ob=new Libro("Editorial Mesa Azul","Numero de material 1", "Personas 2", "Hoja de palma", 2142329, "Jeremi Zapata", "Hablandole a la luna", 2021, "Activo");
+$ob=new Revista("Formato 50 Paginas", "Numero de material 2", "Personas 3", "Hoja de palma", 2142329, "Jeremi Zapata", "Hablandole a la luna", 2021, "Activo");
+ 
+echo $ob->gettMaterial();
+echo "<br>";
+echo $ob->getCodigo();
+echo "<br>";
+echo $ob->getAutor();
+echo "<br>";
+echo $ob->getTitulo();
+echo "<br>";
+echo $ob->getAños();
+echo "<br>";
+echo $ob->getStatus();
+echo "<br>";
+echo $ob->getFormato();
 ?>
