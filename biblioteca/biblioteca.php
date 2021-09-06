@@ -1,7 +1,7 @@
 <?php
 include ('libro.php');
 class Biblioteca{
-    private $coleccion;    
+    protected $coleccion;    
 
     function __construct(){
         $this->coleccion=array();

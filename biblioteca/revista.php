@@ -1,10 +1,10 @@
 <?php 
 include ('material.php');
 class Revista extends Material{
-     private $tema; 
-     private $fechaPublicacion;
-     private $LugarPublicacion;
-     private $numeroEdicion;
+    protected $tema; 
+    protected $fechaPublicacion;
+    protected $LugarPublicacion;
+    protected $numeroEdicion;
         
 function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$tema,$fechaPublicacion,$LugarPublicacion,$numeroEdicion){
     parent::__construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status);

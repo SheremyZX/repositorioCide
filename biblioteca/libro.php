@@ -4,9 +4,9 @@ include ('material.php');
 
 class Libro extends Material{
     
-     private $editorial; 
-     private $numeroPaginas;
-     private $numeroCapitulos;
+    protected $editorial; 
+    protected $numeroPaginas;
+    protected $numeroCapitulos;
         
 function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$editorial,$numeroPaginas,$numeroCapitulos){
     parent::__construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status);
