@@ -1,10 +1,10 @@
 <?php 
-include ('material.php');
+
 class Revista extends Material{
-    protected $tema; 
-    protected $fechaPublicacion;
-    protected $LugarPublicacion;
-    protected $numeroEdicion;
+     private $tema; 
+     private $fechaPublicacion;
+     private $LugarPublicacion;
+     private $numeroEdicion;
         
 function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$tema,$fechaPublicacion,$LugarPublicacion,$numeroEdicion){
     parent::__construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status);
@@ -39,14 +39,5 @@ function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$tema,$f
     }
 }
 $ob=new Revista('papel estucado','ISSN 0028-0836','Pepe Perez','nature',2020,'Buen estado','Cientifico','03-09-2021','EEUU','19');
-echo $ob->datos();
-echo '<br>';
-echo 'Tema: '.$ob->getTema();
-echo '<br>';
-echo 'Fecha de publicación: '.$ob->getFechaPublicacion();
-echo '<br>';    
-echo 'Lugar de publicacion: '.$ob->getLugarPublicacion();
-echo '<br>';
-echo 'Numero de edición: '.$ob->getNumeroEdicion();
-echo '<br>';
+
 ?>
