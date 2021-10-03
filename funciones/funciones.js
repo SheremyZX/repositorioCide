@@ -40,9 +40,8 @@ console.log(mayor(arr));
 
 
 //maximo
-/*
+
 var arr = vec(v,x);
 let mayor = (a)=> Math.max.apply(null,a);
 console.log(vec(v,x));
 console.log(mayor(arr));
-*/
