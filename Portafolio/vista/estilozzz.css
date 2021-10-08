@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../imagenes/portada.jpg);
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+}
+.wrap{
+    width: 90%;
+    max-width: 500px;
+    margin:auto;
+    box-shadow: 0 0 20px 0 #8A2387;
+}
+form{
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background:#8A2387;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 #f27121ab;
+    border-top: 4px solid #8A2387;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea{
+    border: 1px solid #8A2387;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 #8A2387;
+    padding: 16px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;    
+    color:#141938
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus{
+    border:2px solid #3f51b5;
+    padding: 15px;
+}
+
+form textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 150px;
+}
+
+.alert{
+    padding: 1em;
+    color:#fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.alert.error{
+    background: #f2dfde;
+    border:1px solid #f27121ab;
+    color: #f27121ab;
+}
+.alert.success{
+    background: #4caf50;
+}
+.btn,
+form input[type="submit"]{
+    padding: 15px;
+    background:#f27121ab;
+    color:#e1e9fa;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 2px;
+    border: none;
+    float:right;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background: #f27121ab;
+}
+
+.table{
+    position: relative;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 0 20px 0 #8A2387;
+    border:0px dotted #8A2387;    
+    padding:5px;
+    background: #fff;
+}
+.table th{
+    font-family: 'Orbitron', sans-serif;
+    border:0px solid #8A2387;
+    padding:5px;
+}
+.table td{
+    font-family: 'Orbitron', sans-serif;
+    border:0px solid #8A2387;
+    padding:5px;
+}
+
+.lineamod{
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 0 20px 0 #8A2387;
+    padding:5px;
+    padding: 15px;
+    background:#fff;
+    color:#000;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    float:center;
+    cursor: pointer;
+    
+}
+

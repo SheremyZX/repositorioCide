@@ -173,7 +173,15 @@ header .textos-header{
     transform: scale(1);
 }
 
-
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 100px;
+    border: 1px solid #f27121ab;
+    box-shadow:0 0 100px 0  #8a2387da;
+    border-radius: 1em;
+    position:relative;
+}
 
 
 /*footer*/
