@@ -1,0 +1,7 @@
+1. La carpeta portafolio es la que se va a utilizar
+2. En ella esta un archivo llamado baseproyecto.sql, este hay que subirlo a phpMyAdmin para que el CRUD funcione correctamente
+3. Para ingresar datos a la tabla hay que abrir el archivo indexinsertar.php por local host, la ruta seria /repositorioCide/Portafolio/vista/indexinsertar.php
+4. Para ver la lista de datos hay que abrir el archivo index.php ubicado en la carperta vista la ruta seria repositorioCide/Portafolio/vista/index.php
+5. Desde ahi se podran ver los datos ya ingresados, se podran eliminar con el boton "Eliminar" y se podran actualizar con el boton "Actualizar"
+
+NOTA: No estan linkeados de la mejor manera pero funciona, hay que pulirle muchas cosas acerca de links y todo eso
