@@ -17,7 +17,7 @@
     <form action="../controlador/controladorregistro.php", method="GET">
 
     <label for="">Id</label>    
-    <input type="text" name="id" id="id" class="form-control">
+    <input type="text" name="id" id="id" class="form-control" placeholder="Id Identificador de Usuario">
 
     <label for="">Nombre</label>    
     <input type="text" name="nombre" id="nombre" class="form-control">
@@ -32,12 +32,14 @@
     <input type="text" name="correo" id="correo">
 
     <label for="">Contraseña</label>    
-    <input type="text" name="contra" id="contra" class="form-control">
+    <input type="password" name="contra" id="contra" class="form-control">
 
-    <label for="">Tipo</label>    
-    <input type="text" name="tipo" id="tipo" class="form-control">
+    <label for="">Tipo de Usuario</label>    
+    <input type="text" name="tipo" id="tipo" class="form-control" placeholder="Cliente o Administrador">
 
     <input type="submit" name="boton" id="boton" value="Insertar Registro" class="btn btn-primary">
+    <a href="../index.html"><input type="button" name="red" ide="red" value="Regresar"></a>
+    <a href="index.php"><input type="button" name="red" ide="red" value="Lista de Datos"></a>
     </form>
     </div>     
 </body>

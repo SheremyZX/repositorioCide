@@ -15,7 +15,7 @@
 <body>
 <div class="divmod">
     <table class="table">
-            <center><caption>LISTADO DE PERSONAS</caption><center>
+            <center><caption class="haed">LISTADO DE PERSONAS</caption><center>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -47,6 +47,8 @@
             </tbody>
     </table>
     </div>
+    <a href="../index.html"><input type="button" name="red" id="red" value="Regresar"></a>
+    <a href="indexinsertar.php"><input type="button" name="red" id="red" value="Registrar Datos"></a>
  
 </body>
 </html>

@@ -121,3 +121,19 @@ form input[type="submit"]:hover{
     
 }
 
+.haed{
+    background-color: #000;
+    color: #fff;
+}
+
+.red{
+    padding: 15px;
+    background:#f27121ab;
+    color:#e1e9fa;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 2px;
+    border: none;
+    float:right;
+    cursor: pointer;
+}
