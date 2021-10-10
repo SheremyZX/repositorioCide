@@ -18,6 +18,7 @@
         <a href="#textos-header">Inicio</a>
         <a href="#contenedor-footer">Contactame</a>
         <a href="vista/indexinsertar.php">CRUD</a>
+        <a href="manual.html">Manual</a>
     </nav>
     <section class="textos-header" id="textos-header">
         <H1>Jeremi Zapata Bermudez</H1>
@@ -139,7 +140,7 @@
     </div></section>
     
 </main>
-
+<section>
 <form action="" method="post">
     <h1 align="centre">Formulario de Contacto</h1>	
      <ul>
@@ -161,10 +162,59 @@
     <input type="button" value="Enviar">
      </ul>
 </form>
-
-<section>
-
 </section>
+<br>
+<br>
+<br>
+<h1 align="center">Codigos JS</h1>
+<pre><code>
+    <h1>Funciones Flecha</h1>
+    var vec=(array,tam)=>{
+        for (let i = 0; i < tam; i++) {
+            array.push(Math.round(Math.random()*100));         
+        }
+        return array;
+    }
+    v=[];
+    x=5;
+    
+    /*       ----------------------- promedio -------------- */
+    /*console.log(vec(v,x));*/
+    var arr= vec(v,x); 
+    arr = [15,8,11,2,19];
+    let suma = arr.reduce((previous, current) => current += previous);
+    let avg = suma/arr.length;
+    console.log(avg);
+    
+    
+    
+    /* ----------------- mediana --------------------- */
+    /*
+    var arr= vec(v,x); 
+    arr.sort((a, b) => a - b);
+    let manoyor = Math.floor((arr.length - 1) / 2);
+    let mayorigual = Math.ceil((arr.length - 1) / 2);
+    let mediana = (arr[manoyor] + arr[mayorigual]) / 2;
+    console.log(mediana);
+    */
+    
+    
+    /* ----------------- minimo --------------------- */
+    /*
+    var arr = vec(v,x);
+    let mayor = (a)=> Math.min.apply(null,a);
+    console.log(vec(v,x));
+    console.log(mayor(arr));
+    */
+    /* ----------------- maximo --------------------- */
+    /*
+    var arr = vec(v,x);
+    let mayor = (a)=> Math.max.apply(null,a);
+    console.log(vec(v,x));
+    console.log(mayor(arr));
+    */
+  Para el correcto funcionamiento del codigo hay que poner un script en un archivo HTML
+</code></pre>
 
 <footer>
     <div class="contenedor-footer" id="contenedor-footer">

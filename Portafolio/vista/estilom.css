@@ -1,0 +1,24 @@
+*{
+    margin:20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    letter-spacing: 3pt;
+    font-family: 'Orbitron', sans-serif;
+    background-color:#000000;
+}
+
+.titu span{
+    color: #8A2387;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.titu h1{
+    color: #8A2387;
+    font-size: 30px;
+    text-shadow: 0 0 200px 0 #f27121ab;
+    text-align: justify;
+}
