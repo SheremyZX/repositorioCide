@@ -38,7 +38,7 @@
     <input type="text" name="tipo" id="tipo" class="form-control" placeholder="Cliente o Administrador">
 
     <input type="submit" name="boton" id="boton" value="Insertar Registro" class="btn btn-primary">
-    <a href="../index.html"><input type="button" name="red" ide="red" value="Regresar"></a>
+    <a href="../index.html"><input type="button" name="red" ide="red" value="Regresar al Portafilio"></a>
     <a href="index.php"><input type="button" name="red" ide="red" value="Lista de Datos"></a>
     </form>
     </div>     
